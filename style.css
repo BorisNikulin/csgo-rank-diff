@@ -1,0 +1,27 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.scoreboard {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: repeat(8, auto);
+	gap: 1em;
+	margin: 1em auto 2em;
+}
+
+.scoreboard > h1 {
+	margin: 0 auto;
+}
+
+.scoreboard > p {
+	margin: 0 0;
+}
+
+.scoreboard__rank {
+}
+
+.summary {
+}
